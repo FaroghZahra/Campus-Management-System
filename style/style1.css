@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-image: linear-gradient(180deg,  #FBEAEB, #2F3C7E );
+}
+
+.buttons{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+.buttons h1{
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color:  #E10600;
+    text-shadow: 4px 4px #FBEAEB;
+}
+.buttons h3{
+    font-size: x-large;
+    text-align: center;
+}
+.buttons button{
+    background-color: #C8A2C8;
+    border: round;
+    border-radius: 5px;
+    color: black; /* Dark grey */ 
+    padding: 15px 32px
+}

@@ -1,0 +1,85 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: linear-gradient(180deg,  #FBEAEB, #2F3C7E );
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card{
+    width: 350px;
+    height: 595px;
+    box-shadow: 0 0 40px 20px #f0abb0;
+    perspective: 1000px;
+}
+.inner-box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(180deg,  #E10600, #2F3C7E );
+    padding:  30px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+.card h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+.input-box{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+    font-size: 12px;
+}
+
+button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 35px 0;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.submit-btn{
+    position: relative;
+}
+
+.submit-btn::after{
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
