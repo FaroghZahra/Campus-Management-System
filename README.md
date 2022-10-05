@@ -15,3 +15,5 @@ Student can either Signup and login and has following rights:
 2.View Courses Assigned
 3.Update Personal Info
 4.Logout
+#Deployed
+To see the deployed project please visit the following link:  http://34.131.30.164:8080/CampusManagementSystem/  
