@@ -16,4 +16,4 @@ Student can either Signup and login and has following rights:
 3.Update Personal Info
 4.Logout
 # Deployment
-To see the deployed project please visit the following link:  http://34.131.30.164:8080/CampusManagementSystem/  
+To see the deployed project please visit the following link:  http://34.131.172.204:8080/CampusManagementSystem/
